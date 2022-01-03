@@ -1,0 +1,16 @@
+@mixin background {
+  background: $home-image ;
+  background-attachment: fixed;
+  background-size: cover; 
+  opacity: 0.8;
+}
+
+@mixin spanTran {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: $secondary-color;
+  animation: text_reveal_box 1s ease;
+}
