@@ -19,12 +19,12 @@
     <title>Yana Kotliar | UI/UX Designer</title>
   </head>
   <body>
-     <!-- Header -->
-     <section id="header">
+    <!-- Header -->
+    <section id="header">
       <div class="header container">
         <div class="nav-bar">
           <div class="logo">
-            <a href="#home">
+            <a href="index.html">
               <div class="name">I'm Yana</div>
               <div class="title">
                 <div class="title__position">UX/UI</div>
@@ -35,17 +35,21 @@
           <div class="nav-list">
             <div class="hamburger"><div class="bar"></div></div>
             <ul>
-              <li><a href="#home" data-after="Home">Home</a></li>
-              <li><a href="#about" data-after="About">About Me</a></li>
-              <li><a href="#projects" data-after="Projects">Projects</a></li>
-              <li><a href="#contact" data-after="Contact">Contact</a></li>
+              <li>
+                <a href="index.html" data-after="Home" class="current">Home</a>
+              </li>
+              <li><a href="about.html" data-after="About">About Me</a></li>
+              <li><a href="projects.html" data-after="My Work">Projects</a></li>
+              <li><a href="visual.html" data-after="Visual">Visual</a></li>
+              <li><a href="contact.html" data-after="Contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
     </section>
     <div id="home">
-      <div class="home container">
+      <div class="home">
+      <div class="container-left">
         <h1 class="lg-heading">And I design<span></span></h1>
         <h1 class="lg-heading">beautifully simple<span></span></h1>
         <h1 class="lg-heading">things.<span></span></h1>
@@ -62,7 +66,26 @@
           >My Projects</a
         >
       </div>
+      <div class="container-right">
+        <img src="./img/about.jpg" alt="">
+      </div>
     </div>
-  <script src="./js/typewriter.js"></script>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      <h1 class="text">
+        You can
+        <span class="caption__accent">find me here</span><br />
+      </h1>
+
+      <div class="footer-links">
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+
+  
+    <!-- End Footer -->
+    <script src="./js/typewriter.js"></script>
   </body>
 </html>
