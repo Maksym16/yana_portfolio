@@ -386,6 +386,7 @@ img {
       padding: 1rem 0;
       font-size: 14px;
       font-weight: 100;
+      line-height: 3rem;
     }
   }
 
@@ -456,6 +457,126 @@ img {
           }
           .project-item img {
             transition: transform .4s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+#projects {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .projects {
+    &__container {
+    background-color: #F4F4F4;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+
+      .lead {
+        margin: 1rem 0;
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+      }
+
+      .heading {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: $primary-color;
+
+        &__text {
+          font-weight: 900;
+        }
+    
+        span {
+          font-weight: 200 !important;
+        }
+      }
+  
+      .projects__items {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 0;
+
+        .project__item {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          color: $primary-color;
+          margin-bottom: 3rem;
+          border-bottom: 1px solid $primary-color;
+          padding-bottom: 3rem;
+
+          &__img {
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 00.3);
+          }
+          
+
+          &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &__name {
+              font-weight: 900;
+              font-size: 2rem;
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+            }
+
+            &__description {
+              font-size: 1rem;
+              
+              span {
+                font-weight: bolder;
+              }
+            }
+
+            .cta {
+              max-width: max-content;
+            }
+          }
+
+          &.even {
+            display: flex;
+            flex-direction: column-reverse;
+            .project__item {
+              &__container {
+                padding-left: 0 !important;
+                display: flex;
+                align-items: end;
+
+                &__name {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: end;
+                }
+
+                &__description {
+                  text-align: end;
+                }
+    
+
+              }
+            }
+          }
+
+          &:last-child {
+            margin-bottom: 4rem;
+            border-bottom: none !important;
+            padding-bottom: 0;
           }
         }
       }
@@ -624,6 +745,71 @@ img {
         .visual__projects {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    }
+  }
+
+  #projects {
+    .projects {
+      &__container {
+        padding: 4rem;
+        .projects__items {
+          display: flex;
+          flex-direction: column;
+  
+          .project__item {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr);
+            color: $primary-color;
+            margin-bottom: 5rem;
+            border-bottom: 1px solid $primary-color;
+            padding-bottom: 5rem;
+
+            &__container {
+              padding-left: 3rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+
+              &__name {
+                font-weight: 900;
+                font-size: 3rem;
+                margin-bottom: 1rem;
+                margin-top: 0;
+              }
+
+              &__description {
+                font-size: 1.5rem;
+                
+                span {
+                  font-weight: bolder;
+                }
+              }
+
+              .cta {
+                max-width: max-content;
+              }
+            }
+
+            &.even {
+              .project__item {
+                &__container {
+                  padding-right: 3rem !important;
+  
+                  &__name {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                  }
+  
+                  &__description {
+                    text-align: end;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
