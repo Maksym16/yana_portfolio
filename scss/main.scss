@@ -640,6 +640,19 @@ img {
 
           .project__item__img {
             padding: 1rem;
+            width: 70%;
+          }
+
+          .cta {
+            color: $on-time !important;
+            background-color: transparent;
+            border: 2px solid $on-time !important;
+            max-width: fit-content;
+
+            &:hover {
+              color: white !important;
+              background-color: $on-time !important;
+            }
           }
         }
 
@@ -648,6 +661,12 @@ img {
           grid-template-columns: repeat(2, 1fr);
           color: $primary-color;
           padding: 1rem;
+
+          .project__item__img__max__type2 {
+            height: 50rem;
+            padding: 1rem 2rem;
+            width: 50rem;
+          }
 
           .heading {
             width: 100%;
@@ -709,6 +728,12 @@ img {
             }
           }
 
+          .project__item__img__max {
+            height: 50rem;
+            padding: 1rem 2rem;
+            width: 30rem;
+          }
+
           &--3 {
             grid-template-columns: repeat(3, 1fr);
 
@@ -727,6 +752,12 @@ img {
 
             .mid {
               padding: 2rem;
+            }
+
+            .project__item__img__max {
+              height: 50rem;
+              padding: 1rem 2rem;
+              width: 30rem;
             }
           }
         }
