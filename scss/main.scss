@@ -631,6 +631,18 @@ img {
           }
         }
 
+        .center-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 0 5rem;
+
+          .project__item__img {
+            padding: 1rem;
+          }
+        }
+
         &__inner-box {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -643,6 +655,9 @@ img {
             margin-bottom: 2rem;
             margin-top: 2rem;
             color: $on-time;
+            display: flex;
+              flex-direction: column;
+              justify-content: center;
 
             margin-left: 2rem;
 
@@ -668,6 +683,7 @@ img {
                 color: $on-time !important;
                 background-color: transparent;
                 border: 2px solid $on-time !important;
+                max-width: fit-content;
 
                 &:hover {
                   color: white !important;
@@ -699,11 +715,13 @@ img {
             .left, .mid, .right {
               display: flex;
               flex-direction: column;
-
-              .lead {
-                padding: 0;
-                margin: .3rem;
-                font-size: 12px;
+              align-items: center;
+              .box {
+                .lead {
+                  padding: 0;
+                  margin: .3rem;
+                  font-size: 12px;
+                }
               }
             }
 

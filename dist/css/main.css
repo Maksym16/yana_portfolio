@@ -533,6 +533,14 @@ img {
         color: #333; }
         #case .case__container__box .lead span {
           font-weight: 900; }
+      #case .case__container__box .center-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 5rem; }
+        #case .case__container__box .center-text .project__item__img {
+          padding: 1rem; }
       #case .case__container__box__inner-box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -544,6 +552,9 @@ img {
           margin-bottom: 2rem;
           margin-top: 2rem;
           color: #033F73;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
           margin-left: 2rem; }
           #case .case__container__box__inner-box .heading__text {
             font-weight: 900;
@@ -559,7 +570,8 @@ img {
           #case .case__container__box__inner-box .heading--on-time .cta {
             color: #033F73 !important;
             background-color: transparent;
-            border: 2px solid #033F73 !important; }
+            border: 2px solid #033F73 !important;
+            max-width: fit-content; }
             #case .case__container__box__inner-box .heading--on-time .cta:hover {
               color: white !important;
               background-color: #033F73 !important; }
@@ -578,8 +590,9 @@ img {
           grid-template-columns: repeat(3, 1fr); }
           #case .case__container__box__inner-box--3 .left, #case .case__container__box__inner-box--3 .mid, #case .case__container__box__inner-box--3 .right {
             display: flex;
-            flex-direction: column; }
-            #case .case__container__box__inner-box--3 .left .lead, #case .case__container__box__inner-box--3 .mid .lead, #case .case__container__box__inner-box--3 .right .lead {
+            flex-direction: column;
+            align-items: center; }
+            #case .case__container__box__inner-box--3 .left .box .lead, #case .case__container__box__inner-box--3 .mid .box .lead, #case .case__container__box__inner-box--3 .right .box .lead {
               padding: 0;
               margin: .3rem;
               font-size: 12px; }
