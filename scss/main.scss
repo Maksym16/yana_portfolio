@@ -85,6 +85,10 @@ img {
   padding: 0.5rem;
 }
 
+.big {
+  font-size: 2rem;
+}
+
 #header {
   position: fixed;
   z-index: 1000;
@@ -787,6 +791,11 @@ img {
                   font-size: 12px;
                 }
               }
+
+              .project__item__img {
+                max-width: 30rem;
+                max-height: 30rem;
+              }
             }
 
             .mid {
@@ -810,6 +819,20 @@ img {
               .lead {
                 &--grey {
                   color: #9f9d9d;
+                }
+              }
+
+              .user-persona-container {
+                display: flex;
+                .project__item__img {
+                  height: 5rem;
+                  width: 5rem;
+                  margin-right: 10px;
+                }
+
+                .lead {
+                  font-style: italic;
+                  font-size: 2rem;
                 }
               }
             }

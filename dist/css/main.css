@@ -135,6 +135,9 @@ img {
   background-color: #FF9802;
   padding: 0.5rem; }
 
+.big {
+  font-size: 2rem; }
+
 #header {
   position: fixed;
   z-index: 1000;
@@ -635,6 +638,9 @@ img {
               padding: 0;
               margin: .3rem;
               font-size: 12px; }
+            #case .case__container__box__inner-box--3 .left .project__item__img, #case .case__container__box__inner-box--3 .mid .project__item__img, #case .case__container__box__inner-box--3 .right .project__item__img {
+              max-width: 30rem;
+              max-height: 30rem; }
           #case .case__container__box__inner-box--3 .mid {
             padding: 2rem; }
           #case .case__container__box__inner-box--3 .project__item__img__max {
@@ -647,6 +653,15 @@ img {
             width: 40rem; }
           #case .case__container__box__inner-box--portland .right .lead--grey {
             color: #9f9d9d; }
+          #case .case__container__box__inner-box--portland .right .user-persona-container {
+            display: flex; }
+            #case .case__container__box__inner-box--portland .right .user-persona-container .project__item__img {
+              height: 5rem;
+              width: 5rem;
+              margin-right: 10px; }
+            #case .case__container__box__inner-box--portland .right .user-persona-container .lead {
+              font-style: italic;
+              font-size: 2rem; }
 
 @media only screen and (min-width: 1200px) {
   /* header */
