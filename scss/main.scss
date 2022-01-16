@@ -617,6 +617,10 @@ img {
               font-weight: 900;
             }
           }
+
+          &--portland {
+            color: $portland-accent;
+          }
         }
 
         .lead {
@@ -628,6 +632,14 @@ img {
 
           span {
             font-weight: 900;
+          }
+
+          &--italic {
+            font-style: italic;
+          }
+
+          &--grey {
+            color: grey;
           }
         }
 
@@ -710,6 +722,33 @@ img {
                 }
               }
             }
+
+            &--portland {
+              .cta {
+                color: $portland-accent !important;
+                background-color: transparent;
+                border: 2px solid $portland-accent !important;
+                max-width: fit-content;
+                font-size: 1rem;
+                margin: 1rem 0;
+
+                &:hover {
+                  color: white !important;
+                  background-color: $portland-accent !important;
+                }
+              }
+
+              .heading__text {
+                color: $portland-accent !important;
+              }
+
+              .right {
+                margin-left: 6rem;
+                .project__item__img--portland {
+                  width: 40rem;
+                }
+              }
+            }
           }
 
           .left, .right {
@@ -758,6 +797,21 @@ img {
               height: 50rem;
               padding: 1rem 2rem;
               width: 30rem;
+            }
+          }
+
+          &--portland {
+            .right {
+              margin-left: 6rem;
+              .project__item__img--portland {
+                width: 40rem;
+              }
+
+              .lead {
+                &--grey {
+                  color: #9f9d9d;
+                }
+              }
             }
           }
         }

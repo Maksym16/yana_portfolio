@@ -525,6 +525,8 @@ img {
           font-weight: 200; }
           #case .case__container__box .title--on-time span {
             font-weight: 900; }
+        #case .case__container__box .title--portland {
+          color: #AC2020; }
       #case .case__container__box .lead {
         margin: 1rem 0;
         padding: 1rem 3rem;
@@ -533,6 +535,10 @@ img {
         color: #333; }
         #case .case__container__box .lead span {
           font-weight: 900; }
+        #case .case__container__box .lead--italic {
+          font-style: italic; }
+        #case .case__container__box .lead--grey {
+          color: grey; }
       #case .case__container__box .center-text {
         display: flex;
         justify-content: center;
@@ -588,6 +594,22 @@ img {
             #case .case__container__box__inner-box .heading--on-time .cta:hover {
               color: white !important;
               background-color: #033F73 !important; }
+          #case .case__container__box__inner-box .heading--portland .cta {
+            color: #AC2020 !important;
+            background-color: transparent;
+            border: 2px solid #AC2020 !important;
+            max-width: fit-content;
+            font-size: 1rem;
+            margin: 1rem 0; }
+            #case .case__container__box__inner-box .heading--portland .cta:hover {
+              color: white !important;
+              background-color: #AC2020 !important; }
+          #case .case__container__box__inner-box .heading--portland .heading__text {
+            color: #AC2020 !important; }
+          #case .case__container__box__inner-box .heading--portland .right {
+            margin-left: 6rem; }
+            #case .case__container__box__inner-box .heading--portland .right .project__item__img--portland {
+              width: 40rem; }
         #case .case__container__box__inner-box .left, #case .case__container__box__inner-box .right {
           padding: 2rem; }
           #case .case__container__box__inner-box .left .lead, #case .case__container__box__inner-box .right .lead {
@@ -619,6 +641,12 @@ img {
             height: 50rem;
             padding: 1rem 2rem;
             width: 30rem; }
+        #case .case__container__box__inner-box--portland .right {
+          margin-left: 6rem; }
+          #case .case__container__box__inner-box--portland .right .project__item__img--portland {
+            width: 40rem; }
+          #case .case__container__box__inner-box--portland .right .lead--grey {
+            color: #9f9d9d; }
 
 @media only screen and (min-width: 1200px) {
   /* header */
