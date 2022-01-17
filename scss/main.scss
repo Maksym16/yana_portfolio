@@ -682,6 +682,41 @@ img {
             padding: 1rem 2rem;
           }
 
+          &__center-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .project__item__img__sketch {
+              height: 40rem;
+              padding: 1rem 2rem;
+              max-width: 50rem;
+
+              &__small {
+                height: 40rem;
+                max-width: 25rem;
+              }
+
+              &__logo {
+                height: 10rem;
+                max-width: 25rem;
+              }
+              &__des-process {
+                height: 10rem;
+                max-width: 90%;
+              }
+            }
+
+            &--row {
+              flex-direction: row;
+
+              .project__item__img__sketch {
+                height: 40rem;
+                padding: 1rem 2rem;
+                width: 20rem;
+              }
+            }
+          }
+
           .heading {
             width: 100%;
             font-size: 2rem;

@@ -566,6 +566,29 @@ img {
         padding: 1rem; }
         #case .case__container__box__inner-box .project__item__img__max__type2 {
           padding: 1rem 2rem; }
+        #case .case__container__box__inner-box__center-container {
+          display: flex;
+          align-items: center;
+          flex-direction: column; }
+          #case .case__container__box__inner-box__center-container .project__item__img__sketch {
+            height: 40rem;
+            padding: 1rem 2rem;
+            max-width: 50rem; }
+            #case .case__container__box__inner-box__center-container .project__item__img__sketch__small {
+              height: 40rem;
+              max-width: 25rem; }
+            #case .case__container__box__inner-box__center-container .project__item__img__sketch__logo {
+              height: 10rem;
+              max-width: 25rem; }
+            #case .case__container__box__inner-box__center-container .project__item__img__sketch__des-process {
+              height: 10rem;
+              max-width: 90%; }
+          #case .case__container__box__inner-box__center-container--row {
+            flex-direction: row; }
+            #case .case__container__box__inner-box__center-container--row .project__item__img__sketch {
+              height: 40rem;
+              padding: 1rem 2rem;
+              width: 20rem; }
         #case .case__container__box__inner-box .heading {
           width: 100%;
           font-size: 2rem;
