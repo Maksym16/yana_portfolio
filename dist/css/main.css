@@ -72,7 +72,7 @@
   text-transform: uppercase; }
 
 html {
-  font-size: 10px;
+  font-size: 13px;
   font-family: 'Poppins', sans-serif; }
 
 a {
@@ -125,7 +125,19 @@ img {
   letter-spacing: 0.1rem;
   margin: 4rem 0;
   transition: 0.3s ease;
-  transition-property: background-color, color; }
+  transition-property: background-color, color;
+  max-width: fit-content;
+  min-width: 18rem;
+  text-align: center; }
+  .cta--portland {
+    color: #AC2020 !important;
+    background-color: transparent;
+    border: 2px solid #AC2020 !important;
+    font-size: 1rem;
+    margin: 1rem 0; }
+    .cta--portland:hover {
+      color: white !important;
+      background-color: #AC2020 !important; }
 
 .cta:hover {
   color: white;
@@ -366,7 +378,7 @@ img {
     #about .about__container .lead {
       margin: 1rem 0;
       padding: 1rem 0;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 100;
       line-height: 3rem; }
   #about .heading {
@@ -463,8 +475,6 @@ img {
         margin-bottom: 3rem;
         border-bottom: 1px solid #333;
         padding-bottom: 3rem; }
-        #projects .projects__container .projects__items .project__item__img {
-          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
         #projects .projects__container .projects__items .project__item__container {
           display: flex;
           flex-direction: column;
@@ -559,6 +569,16 @@ img {
           #case .case__container__box .center-text .cta:hover {
             color: white !important;
             background-color: #033F73 !important; }
+          #case .case__container__box .center-text .cta--portland {
+            color: #AC2020 !important;
+            background-color: transparent;
+            border: 2px solid #AC2020 !important;
+            max-width: fit-content;
+            font-size: 1rem;
+            margin: 1rem 0; }
+            #case .case__container__box .center-text .cta--portland:hover {
+              color: white !important;
+              background-color: #AC2020 !important; }
       #case .case__container__box__inner-box {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -566,14 +586,26 @@ img {
         padding: 1rem; }
         #case .case__container__box__inner-box .project__item__img__max__type2 {
           padding: 1rem 2rem; }
+        #case .case__container__box__inner-box .project__item__img__max__type3 {
+          height: 20rem;
+          padding: 1rem 2rem;
+          width: 30rem; }
+        #case .case__container__box__inner-box .project__item__img__max__type4 {
+          height: 55rem;
+          padding: 1rem 2rem;
+          width: 30rem; }
+        #case .case__container__box__inner-box .project__item__img__max__type5 {
+          height: 30rem;
+          padding: 1rem 2rem;
+          width: 30rem; }
         #case .case__container__box__inner-box__center-container {
           display: flex;
           align-items: center;
           flex-direction: column; }
           #case .case__container__box__inner-box__center-container .project__item__img__sketch {
-            height: 40rem;
+            height: 30rem;
             padding: 1rem 2rem;
-            max-width: 50rem; }
+            max-width: 35rem; }
             #case .case__container__box__inner-box__center-container .project__item__img__sketch__small {
               height: 40rem;
               max-width: 25rem; }
@@ -586,9 +618,9 @@ img {
           #case .case__container__box__inner-box__center-container--row {
             flex-direction: row; }
             #case .case__container__box__inner-box__center-container--row .project__item__img__sketch {
-              height: 40rem;
+              height: 25rem;
               padding: 1rem 2rem;
-              width: 20rem; }
+              width: 14rem; }
         #case .case__container__box__inner-box .heading {
           width: 100%;
           font-size: 2rem;
@@ -644,7 +676,7 @@ img {
             font-size: 1rem;
             letter-spacing: 0.2rem;
             color: #333;
-            font-size: 14px; }
+            font-size: 13px; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
               font-weight: 900; }
         #case .case__container__box__inner-box .project__item__img__max {
@@ -671,11 +703,14 @@ img {
             padding: 1rem 2rem;
             width: 30rem; }
         #case .case__container__box__inner-box--portland .right {
-          margin-left: 6rem; }
+          display: flex; }
+          #case .case__container__box__inner-box--portland .right__container {
+            margin-left: 2rem; }
           #case .case__container__box__inner-box--portland .right .project__item__img--portland {
-            width: 40rem; }
+            width: 15rem;
+            height: 14rem; }
           #case .case__container__box__inner-box--portland .right .lead--grey {
-            color: #9f9d9d; }
+            display: none; }
           #case .case__container__box__inner-box--portland .right .user-persona-container {
             display: flex; }
             #case .case__container__box__inner-box--portland .right .user-persona-container .project__item__img {
@@ -685,6 +720,16 @@ img {
             #case .case__container__box__inner-box--portland .right .user-persona-container .lead {
               font-style: italic;
               font-size: 2rem; }
+        #case .case__container__box__inner-box--portland .cta {
+          color: #AC2020 !important;
+          background-color: transparent;
+          border: 2px solid #AC2020 !important;
+          max-width: fit-content;
+          font-size: 1rem;
+          margin: 1rem 0; }
+          #case .case__container__box__inner-box--portland .cta:hover {
+            color: white !important;
+            background-color: #AC2020 !important; }
 
 @media only screen and (min-width: 1200px) {
   /* header */
@@ -700,7 +745,7 @@ img {
       display: block;
       height: 40px;
       width: 100px;
-      font-size: 14px; }
+      font-size: 13px; }
       #header .nav-bar .logo a {
         font-weight: 500;
         color: #333; }
@@ -870,14 +915,6 @@ img {
         #case .case__container__box .center-text .project__item__img {
           padding: 1rem;
           width: 70%; }
-        #case .case__container__box .center-text .cta {
-          color: #033F73 !important;
-          background-color: transparent;
-          border: 2px solid #033F73 !important;
-          max-width: fit-content; }
-          #case .case__container__box .center-text .cta:hover {
-            color: white !important;
-            background-color: #033F73 !important; }
       #case .case__container__box__inner-box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -887,6 +924,37 @@ img {
           height: 50rem;
           padding: 1rem 2rem;
           width: 50rem; }
+        #case .case__container__box__inner-box .project__item__img__max__type3 {
+          height: 30rem;
+          padding: 1rem 2rem;
+          width: 45rem; }
+        #case .case__container__box__inner-box .project__item__img__max__type4 {
+          height: 40rem;
+          padding: 1rem 2rem;
+          width: 25rem; }
+        #case .case__container__box__inner-box .project__item__img__max__type5 {
+          height: 30rem;
+          padding: 1rem 2rem;
+          width: 30rem; }
+        #case .case__container__box__inner-box__center-container .project__item__img__sketch {
+          height: 40rem;
+          padding: 1rem 2rem;
+          max-width: 50rem; }
+          #case .case__container__box__inner-box__center-container .project__item__img__sketch__small {
+            height: 40rem;
+            max-width: 25rem; }
+          #case .case__container__box__inner-box__center-container .project__item__img__sketch__logo {
+            height: 10rem;
+            max-width: 25rem; }
+          #case .case__container__box__inner-box__center-container .project__item__img__sketch__des-process {
+            height: 10rem;
+            max-width: 90%; }
+        #case .case__container__box__inner-box__center-container--row {
+          flex-direction: row; }
+          #case .case__container__box__inner-box__center-container--row .project__item__img__sketch {
+            height: 40rem;
+            padding: 1rem 2rem;
+            width: 20rem; }
         #case .case__container__box__inner-box .heading {
           width: 100%;
           font-size: 2rem;
@@ -924,7 +992,7 @@ img {
             font-size: 1rem;
             letter-spacing: 0.2rem;
             color: #333;
-            font-size: 14px; }
+            font-size: 13px; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
               font-weight: 900; }
         #case .case__container__box__inner-box .project__item__img__max {
@@ -946,4 +1014,31 @@ img {
           #case .case__container__box__inner-box--3 .project__item__img__max {
             height: 50rem;
             padding: 1rem 2rem;
-            width: 30rem; } }
+            width: 30rem; }
+        #case .case__container__box__inner-box--portland .right {
+          margin-left: 6rem;
+          flex-direction: column; }
+          #case .case__container__box__inner-box--portland .right__container {
+            margin-left: 0; }
+          #case .case__container__box__inner-box--portland .right .project__item__img--portland {
+            width: 45rem;
+            height: 30rem; }
+          #case .case__container__box__inner-box--portland .right .user-persona-container {
+            display: flex; }
+            #case .case__container__box__inner-box--portland .right .user-persona-container .project__item__img {
+              height: 5rem;
+              width: 5rem;
+              margin-right: 10px; }
+            #case .case__container__box__inner-box--portland .right .user-persona-container .lead {
+              font-style: italic;
+              font-size: 2rem; }
+        #case .case__container__box__inner-box--portland .cta {
+          color: #AC2020 !important;
+          background-color: transparent;
+          border: 2px solid #AC2020 !important;
+          max-width: fit-content;
+          font-size: 1rem;
+          margin: 1rem 0; }
+          #case .case__container__box__inner-box--portland .cta:hover {
+            color: white !important;
+            background-color: #AC2020 !important; } }
