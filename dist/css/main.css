@@ -147,6 +147,11 @@ img {
   background-color: #FF9802;
   padding: 0.5rem; }
 
+.caption__grey {
+  background-color: #E5E5E5;
+  padding: 0.2rem;
+  margin-bottom: 2rem; }
+
 .big {
   font-size: 2rem; }
 
@@ -410,7 +415,8 @@ img {
       margin: 1rem 0;
       padding: 1rem 0;
       font-size: 1.5rem;
-      letter-spacing: 0.2rem; }
+      letter-spacing: 0.2rem;
+      line-height: 2rem; }
     #visual .visual__container .heading {
       width: 100%;
       font-size: 2rem;
@@ -453,7 +459,8 @@ img {
       margin: 1rem 0;
       padding: 1rem 0;
       font-size: 1.5rem;
-      letter-spacing: 0.2rem; }
+      letter-spacing: 0.2rem;
+      line-height: 2rem; }
     #projects .projects__container .heading {
       width: 100%;
       font-size: 2rem;
@@ -540,12 +547,15 @@ img {
             font-weight: 900; }
         #case .case__container__box .title--portland {
           color: #AC2020; }
+        #case .case__container__box .title--cook-it {
+          color: #A1BA79; }
       #case .case__container__box .lead {
         margin: 1rem 0;
         padding: 1rem 3rem;
         font-size: 1rem;
         letter-spacing: 0.2rem;
-        color: #333; }
+        color: #333;
+        line-height: 2rem; }
         #case .case__container__box .lead span {
           font-weight: 900; }
         #case .case__container__box .lead--italic {
@@ -639,7 +649,8 @@ img {
             padding: 1rem 0;
             font-size: 1rem;
             letter-spacing: 0.2rem;
-            color: #333; }
+            color: #333;
+            line-height: 2rem; }
             #case .case__container__box__inner-box .heading .lead span {
               font-weight: 900; }
           #case .case__container__box__inner-box .heading--on-time .cta {
@@ -668,6 +679,22 @@ img {
             margin-left: 6rem; }
             #case .case__container__box__inner-box .heading--portland .right .project__item__img--portland {
               width: 40rem; }
+          #case .case__container__box__inner-box .heading--cook-it .cta {
+            color: #A1BA79 !important;
+            background-color: transparent;
+            border: 2px solid #A1BA79 !important;
+            max-width: fit-content;
+            font-size: 1rem;
+            margin: 1rem 0; }
+            #case .case__container__box__inner-box .heading--cook-it .cta:hover {
+              color: white !important;
+              background-color: #A1BA79 !important; }
+          #case .case__container__box__inner-box .heading--cook-it .heading__text {
+            color: #A1BA79 !important; }
+          #case .case__container__box__inner-box .heading--cook-it .right {
+            margin-left: 4rem; }
+            #case .case__container__box__inner-box .heading--cook-it .right .project__item__img--portland {
+              width: 40rem; }
         #case .case__container__box__inner-box .left, #case .case__container__box__inner-box .right {
           padding: 2rem; }
           #case .case__container__box__inner-box .left .lead, #case .case__container__box__inner-box .right .lead {
@@ -676,7 +703,8 @@ img {
             font-size: 1rem;
             letter-spacing: 0.2rem;
             color: #333;
-            font-size: 13px; }
+            font-size: 13px;
+            line-height: 2rem; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
               font-weight: 900; }
         #case .case__container__box__inner-box .project__item__img__max {
@@ -692,7 +720,8 @@ img {
             #case .case__container__box__inner-box--3 .left .box .lead, #case .case__container__box__inner-box--3 .mid .box .lead, #case .case__container__box__inner-box--3 .right .box .lead {
               padding: 0;
               margin: .3rem;
-              font-size: 12px; }
+              font-size: 12px;
+              line-height: 2rem; }
             #case .case__container__box__inner-box--3 .left .project__item__img, #case .case__container__box__inner-box--3 .mid .project__item__img, #case .case__container__box__inner-box--3 .right .project__item__img {
               max-width: 30rem;
               max-height: 30rem; }
@@ -709,8 +738,10 @@ img {
           #case .case__container__box__inner-box--portland .right .project__item__img--portland {
             width: 15rem;
             height: 14rem; }
-          #case .case__container__box__inner-box--portland .right .lead--grey {
-            display: none; }
+          #case .case__container__box__inner-box--portland .right .lead {
+            line-height: 2rem; }
+            #case .case__container__box__inner-box--portland .right .lead--grey {
+              display: none; }
           #case .case__container__box__inner-box--portland .right .user-persona-container {
             display: flex; }
             #case .case__container__box__inner-box--portland .right .user-persona-container .project__item__img {
@@ -719,7 +750,8 @@ img {
               margin-right: 10px; }
             #case .case__container__box__inner-box--portland .right .user-persona-container .lead {
               font-style: italic;
-              font-size: 2rem; }
+              font-size: 2rem;
+              line-height: 2rem; }
         #case .case__container__box__inner-box--portland .cta {
           color: #AC2020 !important;
           background-color: transparent;
@@ -730,6 +762,29 @@ img {
           #case .case__container__box__inner-box--portland .cta:hover {
             color: white !important;
             background-color: #AC2020 !important; }
+        #case .case__container__box__inner-box--cook-it .left--end {
+          display: flex;
+          justify-content: flex-end; }
+          #case .case__container__box__inner-box--cook-it .left--end .project__item__img {
+            text-align: end; }
+        #case .case__container__box__inner-box--cook-it .right {
+          display: flex;
+          flex-direction: column;
+          margin-left: 2rem !important; }
+          #case .case__container__box__inner-box--cook-it .right h1 {
+            font-weight: 900; }
+          #case .case__container__box__inner-box--cook-it .right .user-persona-container {
+            display: flex;
+            flex-direction: column; }
+            #case .case__container__box__inner-box--cook-it .right .user-persona-container .case__container__box__inner-box {
+              padding: 0; }
+            #case .case__container__box__inner-box--cook-it .right .user-persona-container .lead {
+              font-style: normal !important;
+              font-size: 1rem !important;
+              line-height: .5rem; }
+              #case .case__container__box__inner-box--cook-it .right .user-persona-container .lead span {
+                padding-bottom: 2px;
+                border-bottom: 2px solid #E5E5E5; }
 
 @media only screen and (min-width: 1200px) {
   /* header */
@@ -811,7 +866,8 @@ img {
         margin: 1rem 0;
         padding: 1rem 0;
         font-size: 1.5rem;
-        letter-spacing: 0.2rem; }
+        letter-spacing: 0.2rem;
+        line-height: 2rem; }
     #about .heading {
       width: 100%;
       font-size: 2rem;
@@ -834,7 +890,8 @@ img {
       margin: 1rem 0;
       padding: 1rem 0;
       font-size: 1.5rem;
-      letter-spacing: 0.2rem; }
+      letter-spacing: 0.2rem;
+      line-height: 2rem; }
     #visual .visual__container .visual__projects {
       display: grid;
       grid-template-columns: repeat(3, 1fr); }
@@ -903,7 +960,8 @@ img {
         padding: 1rem 3rem;
         font-size: 1rem;
         letter-spacing: 0.2rem;
-        color: #333; }
+        color: #333;
+        line-height: 2rem; }
         #case .case__container__box .lead span {
           font-weight: 900; }
       #case .case__container__box .center-text {
@@ -923,7 +981,7 @@ img {
         #case .case__container__box__inner-box .project__item__img__max__type2 {
           height: 50rem;
           padding: 1rem 2rem;
-          width: 50rem; }
+          width: 100%; }
         #case .case__container__box__inner-box .project__item__img__max__type3 {
           height: 30rem;
           padding: 1rem 2rem;
@@ -973,7 +1031,8 @@ img {
             padding: 1rem 0;
             font-size: 1rem;
             letter-spacing: 0.2rem;
-            color: #333; }
+            color: #333;
+            line-height: 2rem; }
             #case .case__container__box__inner-box .heading .lead span {
               font-weight: 900; }
           #case .case__container__box__inner-box .heading--on-time .cta {
@@ -992,7 +1051,8 @@ img {
             font-size: 1rem;
             letter-spacing: 0.2rem;
             color: #333;
-            font-size: 13px; }
+            font-size: 13px;
+            line-height: 2rem; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
               font-weight: 900; }
         #case .case__container__box__inner-box .project__item__img__max {
@@ -1008,7 +1068,8 @@ img {
             #case .case__container__box__inner-box--3 .left .box .lead, #case .case__container__box__inner-box--3 .mid .box .lead, #case .case__container__box__inner-box--3 .right .box .lead {
               padding: 0;
               margin: .3rem;
-              font-size: 12px; }
+              font-size: 12px;
+              line-height: 2rem; }
           #case .case__container__box__inner-box--3 .mid {
             padding: 2rem; }
           #case .case__container__box__inner-box--3 .project__item__img__max {
@@ -1031,7 +1092,8 @@ img {
               margin-right: 10px; }
             #case .case__container__box__inner-box--portland .right .user-persona-container .lead {
               font-style: italic;
-              font-size: 2rem; }
+              font-size: 2rem;
+              line-height: 2rem; }
         #case .case__container__box__inner-box--portland .cta {
           color: #AC2020 !important;
           background-color: transparent;
@@ -1040,5 +1102,33 @@ img {
           font-size: 1rem;
           margin: 1rem 0; }
           #case .case__container__box__inner-box--portland .cta:hover {
+            color: white !important;
+            background-color: #AC2020 !important; }
+        #case .case__container__box__inner-box--cook-it .right {
+          margin-left: 6rem;
+          flex-direction: column; }
+          #case .case__container__box__inner-box--cook-it .right__container {
+            margin-left: 0; }
+          #case .case__container__box__inner-box--cook-it .right .project__item__img--portland {
+            width: 45rem;
+            height: 30rem; }
+          #case .case__container__box__inner-box--cook-it .right .user-persona-container {
+            display: flex; }
+            #case .case__container__box__inner-box--cook-it .right .user-persona-container .project__item__img {
+              height: 5rem;
+              width: 5rem;
+              margin-right: 10px; }
+            #case .case__container__box__inner-box--cook-it .right .user-persona-container .lead {
+              font-style: italic;
+              font-size: 2rem;
+              line-height: 2rem; }
+        #case .case__container__box__inner-box--cook-it .cta {
+          color: #AC2020 !important;
+          background-color: transparent;
+          border: 2px solid #AC2020 !important;
+          max-width: fit-content;
+          font-size: 1rem;
+          margin: 1rem 0; }
+          #case .case__container__box__inner-box--cook-it .cta:hover {
             color: white !important;
             background-color: #AC2020 !important; } }

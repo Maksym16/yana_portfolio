@@ -101,6 +101,12 @@ img {
   padding: 0.5rem;
 }
 
+.caption__grey {
+  background-color: $grey;
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+}
+
 .big {
   font-size: 2rem;
 }
@@ -445,6 +451,7 @@ img {
         padding: 1rem 0;
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
+        line-height: 2rem;
       }
 
       .heading {
@@ -507,6 +514,7 @@ img {
         padding: 1rem 0;
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
+        line-height: 2rem;
       }
 
       .heading {
@@ -637,6 +645,10 @@ img {
           &--portland {
             color: $portland-accent;
           }
+
+          &--cook-it {
+            color: $cook-it;
+          }
         }
 
         .lead {
@@ -645,6 +657,7 @@ img {
           font-size: 1rem;
           letter-spacing: 0.2rem;
           color: $primary-color;
+          line-height: 2rem;
 
           span {
             font-weight: 900;
@@ -784,6 +797,7 @@ img {
               font-size: 1rem;
               letter-spacing: 0.2rem;
               color: $primary-color;
+              line-height: 2rem;
 
               span {
                 font-weight: 900;
@@ -832,6 +846,33 @@ img {
                 }
               }
             }
+
+            &--cook-it {
+              .cta {
+                color: $cook-it !important;
+                background-color: transparent;
+                border: 2px solid $cook-it !important;
+                max-width: fit-content;
+                font-size: 1rem;
+                margin: 1rem 0;
+
+                &:hover {
+                  color: white !important;
+                  background-color: $cook-it !important;
+                }
+              }
+
+              .heading__text {
+                color: $cook-it !important;
+              }
+
+              .right {
+                margin-left: 4rem;
+                .project__item__img--portland {
+                  width: 40rem;
+                }
+              }
+            }
           }
 
           .left, .right {
@@ -843,6 +884,7 @@ img {
               letter-spacing: 0.2rem;
               color: $primary-color;
               font-size: 13px;
+              line-height: 2rem;
 
               span {
                 font-weight: 900;
@@ -868,6 +910,7 @@ img {
                   padding: 0;
                   margin: .3rem;
                   font-size: 12px;
+                  line-height: 2rem;
                 }
               }
 
@@ -901,6 +944,7 @@ img {
               }
 
               .lead {
+                line-height: 2rem;
                 &--grey {
                   display: none;
                 }
@@ -917,6 +961,7 @@ img {
                 .lead {
                   font-style: italic;
                   font-size: 2rem;
+                  line-height: 2rem;
                 }
               }
             }
@@ -932,6 +977,44 @@ img {
               &:hover {
                 color: white !important;
                 background-color: $portland-accent !important;
+              }
+            }
+          }
+
+          &--cook-it {
+            .left {
+              &--end {
+                display: flex;
+                justify-content: flex-end;
+                .project__item__img {
+                  text-align: end;
+                }
+              }
+            }
+            .right {
+              display: flex;
+              flex-direction: column;
+              margin-left: 2rem !important;
+              h1 {
+                font-weight: 900;
+              }
+              .user-persona-container {
+                display: flex;
+                flex-direction: column;
+
+                .case__container__box__inner-box {
+                  padding: 0;
+  
+                }
+                .lead {
+                  font-style: normal !important;
+                  font-size: 1rem !important;
+                  line-height: .5rem;
+                  span {
+                    padding-bottom: 2px;
+                    border-bottom: 2px solid $grey
+                  }
+                }
               }
             }
           }
@@ -1063,6 +1146,7 @@ img {
         padding: 1rem 0;
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
+        line-height: 2rem;
       }
     }
 
@@ -1097,6 +1181,7 @@ img {
           padding: 1rem 0;
           font-size: 1.5rem;
           letter-spacing: 0.2rem;
+          line-height: 2rem;
         }
 
         .visual__projects {
@@ -1211,6 +1296,7 @@ img {
             font-size: 1rem;
             letter-spacing: 0.2rem;
             color: $primary-color;
+            line-height: 2rem;
   
             span {
               font-weight: 900;
@@ -1239,7 +1325,7 @@ img {
             .project__item__img__max__type2 {
               height: 50rem;
               padding: 1rem 2rem;
-              width: 50rem;
+              width: 100%;
             }
 
             .project__item__img__max__type3 {
@@ -1316,6 +1402,7 @@ img {
                 font-size: 1rem;
                 letter-spacing: 0.2rem;
                 color: $primary-color;
+                line-height: 2rem;
   
                 span {
                   font-weight: 900;
@@ -1346,6 +1433,7 @@ img {
                 letter-spacing: 0.2rem;
                 color: $primary-color;
                 font-size: 13px;
+                line-height: 2rem;
   
                 span {
                   font-weight: 900;
@@ -1371,6 +1459,7 @@ img {
                     padding: 0;
                     margin: .3rem;
                     font-size: 12px;
+                    line-height: 2rem;
                   }
                 }
               }
@@ -1409,6 +1498,50 @@ img {
                   .lead {
                     font-style: italic;
                     font-size: 2rem;
+                    line-height: 2rem;
+                  }
+                }
+              }
+  
+              .cta {
+                color: $portland-accent !important;
+                background-color: transparent;
+                border: 2px solid $portland-accent !important;
+                max-width: fit-content;
+                font-size: 1rem;
+                margin: 1rem 0;
+  
+                &:hover {
+                  color: white !important;
+                  background-color: $portland-accent !important;
+                }
+              }
+            }
+
+            &--cook-it {
+              .right {
+                margin-left: 6rem;
+                flex-direction: column;
+                &__container {
+                  margin-left: 0;
+                }
+                .project__item__img--portland {
+                  width: 45rem;
+                  height: 30rem;
+                }
+  
+                .user-persona-container {
+                  display: flex;
+                  .project__item__img {
+                    height: 5rem;
+                    width: 5rem;
+                    margin-right: 10px;
+                  }
+  
+                  .lead {
+                    font-style: italic;
+                    font-size: 2rem;
+                    line-height: 2rem;
                   }
                 }
               }
