@@ -931,6 +931,16 @@ img {
             }
           }
 
+          &--4 {
+            grid-template-columns: repeat(1, 1fr);
+
+            .project__item__img__sketch {
+              height: 40rem;
+              padding: 1rem 2rem;
+              width: 100%;
+            }
+          }
+
           &--portland {
             .right {
               display: flex;
@@ -1472,6 +1482,13 @@ img {
                 height: 50rem;
                 padding: 1rem 2rem;
                 width: 30rem;
+              }
+            }
+            &--4 {
+              grid-template-columns: repeat(4, 1fr);
+              
+              .center-text {
+                margin: 0 1rem;
               }
             }
 

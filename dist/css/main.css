@@ -731,6 +731,12 @@ img {
             height: 50rem;
             padding: 1rem 2rem;
             width: 30rem; }
+        #case .case__container__box__inner-box--4 {
+          grid-template-columns: repeat(1, 1fr); }
+          #case .case__container__box__inner-box--4 .project__item__img__sketch {
+            height: 40rem;
+            padding: 1rem 2rem;
+            width: 100%; }
         #case .case__container__box__inner-box--portland .right {
           display: flex; }
           #case .case__container__box__inner-box--portland .right__container {
@@ -1076,6 +1082,10 @@ img {
             height: 50rem;
             padding: 1rem 2rem;
             width: 30rem; }
+        #case .case__container__box__inner-box--4 {
+          grid-template-columns: repeat(4, 1fr); }
+          #case .case__container__box__inner-box--4 .center-text {
+            margin: 0 1rem; }
         #case .case__container__box__inner-box--portland .right {
           margin-left: 6rem;
           flex-direction: column; }
