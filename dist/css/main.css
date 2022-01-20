@@ -273,12 +273,11 @@ img {
       background-color: white; }
 
 #home {
-  padding: 4rem;
+  padding: 2rem;
   height: 100vh;
   overflow: hidden; }
   #home .home {
-    margin-top: 20vh;
-    margin-left: 10vw; }
+    margin-top: 20vh; }
     #home .home .container-right {
       display: none; }
     #home .home h1 {
@@ -893,7 +892,13 @@ img {
     margin: 0;
     display: flex;
     flex-direction: row;
-    height: 100vh; }
+    height: 100vh;
+    padding: 4rem;
+    height: 100vh;
+    overflow: hidden; }
+    #home .home .home {
+      margin-top: 20vh;
+      margin-left: 10vw; }
     #home .home .container-left {
       width: 50%;
       display: flex;

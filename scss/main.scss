@@ -271,12 +271,12 @@ img {
 }
 
 #home {
-  padding: 4rem;
+  padding: 2rem;
   height: 100vh;
   overflow: hidden;
   .home {
     margin-top: 20vh;
-    margin-left: 10vw;
+    // margin-left: 0vw;
 
     .container-right {
       display: none;
@@ -1196,6 +1196,14 @@ img {
       display: flex;
       flex-direction: row;
       height: 100vh;
+
+      padding: 4rem;
+      height: 100vh;
+      overflow: hidden;
+      .home {
+        margin-top: 20vh;
+        margin-left: 10vw;
+      }
 
       .container-left {
         width: 50%;
