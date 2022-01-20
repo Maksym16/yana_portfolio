@@ -629,6 +629,30 @@ img {
         width: 100%;
         margin-bottom: 2rem;
 
+        &__row {
+          display: flex;
+
+          &__left {
+            display: flex;
+            flex-direction: column;
+          }
+
+          &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            min-width: fit-content;
+
+            .project__item__img {
+              height: 30rem;
+              padding: 1rem 2rem;
+              width: 100%;
+            }
+          }
+        }
+
         .title {
           font-weight: 900;
           font-size: 2rem;
@@ -706,6 +730,19 @@ img {
               &:hover {
                 color: white !important;
                 background-color: $portland-accent !important;
+              }
+            }
+
+            &--cook-it {
+              color: $cook-it !important;
+              background-color: transparent;
+              border: 2px solid $cook-it !important;
+              max-width: fit-content;
+              font-size: 1rem;
+  
+              &:hover {
+                color: white !important;
+                background-color: $cook-it !important;
               }
             }
           }
@@ -1482,6 +1519,13 @@ img {
                 height: 50rem;
                 padding: 1rem 2rem;
                 width: 30rem;
+              }
+              .center-text {
+                .project__item__img__sketch {
+                  height: 40rem;
+                  padding: 1rem 2rem;
+                  width: 100%;
+                }
               }
             }
             &--4 {

@@ -536,6 +536,22 @@ img {
       max-width: 1300px;
       width: 100%;
       margin-bottom: 2rem; }
+      #case .case__container__box__row {
+        display: flex; }
+        #case .case__container__box__row__left {
+          display: flex;
+          flex-direction: column; }
+        #case .case__container__box__row__right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 2rem;
+          min-width: fit-content; }
+          #case .case__container__box__row__right .project__item__img {
+            height: 30rem;
+            padding: 1rem 2rem;
+            width: 100%; }
       #case .case__container__box .title {
         font-weight: 900;
         font-size: 2rem;
@@ -589,6 +605,15 @@ img {
             #case .case__container__box .center-text .cta--portland:hover {
               color: white !important;
               background-color: #AC2020 !important; }
+          #case .case__container__box .center-text .cta--cook-it {
+            color: #A1BA79 !important;
+            background-color: transparent;
+            border: 2px solid #A1BA79 !important;
+            max-width: fit-content;
+            font-size: 1rem; }
+            #case .case__container__box .center-text .cta--cook-it:hover {
+              color: white !important;
+              background-color: #A1BA79 !important; }
       #case .case__container__box__inner-box {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1082,6 +1107,10 @@ img {
             height: 50rem;
             padding: 1rem 2rem;
             width: 30rem; }
+          #case .case__container__box__inner-box--3 .center-text .project__item__img__sketch {
+            height: 40rem;
+            padding: 1rem 2rem;
+            width: 100%; }
         #case .case__container__box__inner-box--4 {
           grid-template-columns: repeat(4, 1fr); }
           #case .case__container__box__inner-box--4 .center-text {
