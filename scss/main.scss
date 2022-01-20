@@ -966,6 +966,12 @@ img {
               padding: 1rem 2rem;
               width: 30rem;
             }
+
+            .project__item__img__min {
+              height: 25rem;
+              padding: 1rem 2rem;
+              width: 100%;
+            }
           }
 
           &--4 {
@@ -1056,7 +1062,7 @@ img {
                 .lead {
                   font-style: normal !important;
                   font-size: 1rem !important;
-                  line-height: .5rem;
+                  line-height: 2rem;
                   span {
                     padding-bottom: 2px;
                     border-bottom: 2px solid $grey
