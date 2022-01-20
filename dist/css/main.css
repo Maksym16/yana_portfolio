@@ -765,9 +765,9 @@ img {
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
               font-weight: 900; }
         #case .case__container__box__inner-box .project__item__img__max {
-          height: 50rem;
+          height: 35rem;
           padding: 1rem 2rem;
-          width: 30rem; }
+          width: 100%; }
         #case .case__container__box__inner-box--3 {
           grid-template-columns: repeat(1, 1fr); }
           #case .case__container__box__inner-box--3 .left, #case .case__container__box__inner-box--3 .mid, #case .case__container__box__inner-box--3 .right {
@@ -785,9 +785,9 @@ img {
           #case .case__container__box__inner-box--3 .mid {
             padding: 2rem; }
           #case .case__container__box__inner-box--3 .project__item__img__max {
-            height: 50rem;
+            height: 35rem;
             padding: 1rem 2rem;
-            width: 30rem; }
+            width: 100%; }
           #case .case__container__box__inner-box--3 .project__item__img__min {
             height: 40rem;
             padding: 1rem 2rem;
