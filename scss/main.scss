@@ -687,6 +687,7 @@ img {
 
         &__row {
           display: flex;
+          flex-direction: column;
 
           &__left {
             display: flex;
@@ -815,21 +816,21 @@ img {
           }
 
           .project__item__img__max__type3 {
-            height: 20rem;
+            height: 15rem;
             padding: 1rem 2rem;
-            width: 30rem;
+            width: 100%;
           }
 
           .project__item__img__max__type4 {
-            height: 55rem;
+            height: 40rem;
             padding: 1rem 2rem;
-            width: 30rem;
+            width: 100%;
           }
 
           .project__item__img__max__type5 {
-            height: 30rem;
+            height: 20rem;
             padding: 1rem 2rem;
-            width: 30rem;
+            width: 100%;
           }
 
           &__center-container {
@@ -860,9 +861,9 @@ img {
               flex-direction: row;
 
               .project__item__img__sketch {
-                height: 25rem;
+                height: 20rem;
                 padding: 1rem 2rem;
-                width: 14rem;
+                width: 100%;
               }
             }
           }
@@ -876,8 +877,6 @@ img {
             display: flex;
             flex-direction: column;
             justify-content: center;
-
-            margin-left: 2rem;
 
             &__text {
               font-weight: 900;
@@ -1024,7 +1023,7 @@ img {
             }
 
             .project__item__img__min {
-              height: 25rem;
+              height: 40rem;
               padding: 1rem 2rem;
               width: 100%;
             }
@@ -1043,13 +1042,11 @@ img {
           &--portland {
             .right {
               display: flex;
-              
-              &__container {
-                margin-left: 2rem;
-              }
+              flex-direction: column;
+           
               .project__item__img--portland {
-                width: 15rem;
-                height: 14rem;
+                width: 100%;
+                height: 20rem;
               }
 
               .lead {
@@ -1103,7 +1100,6 @@ img {
             .right {
               display: flex;
               flex-direction: column;
-              margin-left: 2rem !important;
               h1 {
                 font-weight: 900;
               }
@@ -1449,6 +1445,11 @@ img {
           max-width: 1300px;
           width: 100%;
           margin-bottom: 2rem;
+
+          &__row {
+            display: flex;
+            flex-direction: row;
+          }
   
           .title {
             font-weight: 900;
@@ -1647,6 +1648,13 @@ img {
                 padding: 1rem 2rem;
                 width: 30rem;
               }
+
+              .project__item__img__min {
+                height: 25rem;
+                padding: 1rem 2rem;
+                width: 100%;
+              }
+
               .center-text {
                 .project__item__img__sketch {
                   height: 40rem;
@@ -1666,10 +1674,7 @@ img {
             &--portland {
               .right {
                 margin-left: 6rem;
-                flex-direction: column;
-                &__container {
-                  margin-left: 0;
-                }
+    
                 .project__item__img--portland {
                   width: 45rem;
                   height: 30rem;
