@@ -10,10 +10,12 @@ hamburger.addEventListener('click', () => {
 
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
-	if (scroll_position > 100) {
-		header.style.backgroundColor = '#dfdfdf';
+	if (scroll_position > 80) {
+		header.style.backgroundColor = '#F4F4F4';
+		header.style.boxShadow = '0 2px 5px 0 rgba(0, 0, 0, 00.3)';
 	} else {
 		header.style.backgroundColor = 'transparent';
+		header.style.boxShadow = 'none';
 	}
 });
 

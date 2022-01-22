@@ -412,9 +412,11 @@ img {
       font-size: 1rem;
       font-weight: 100;
       line-height: 3rem;
+      text-transform: none;
 
       span {
         font-weight: 900;
+        text-transform: uppercase;
       }
     }
 
@@ -506,8 +508,9 @@ img {
         margin: 1rem 0;
         padding: 1rem 0;
         font-size: 1.5rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
         line-height: 2rem;
+        text-transform: none;
       }
 
       .heading {
@@ -569,7 +572,7 @@ img {
         margin: 1rem 0;
         padding: 1rem 0;
         font-size: 1.5rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
         line-height: 2rem;
       }
 
@@ -735,13 +738,15 @@ img {
         .lead {
           margin: 1rem 0;
           padding: 1rem 3rem;
-          font-size: 1rem;
-          letter-spacing: 0.2rem;
+          font-size: 1.2rem;
+          letter-spacing: 0.1rem;
           color: $primary-color;
           line-height: 2rem;
+          text-transform: none;
 
           span {
             font-weight: 900;
+            text-transform: uppercase;
           }
 
           &--italic {
@@ -886,13 +891,15 @@ img {
             .lead {
               margin: 1rem 0;
               padding: 1rem 0;
-              font-size: 1rem;
-              letter-spacing: 0.2rem;
+              font-size: 1.2rem;
+              letter-spacing: 0.1rem;
               color: $primary-color;
               line-height: 2rem;
+              text-transform: none;
 
               span {
                 font-weight: 900;
+                text-transform: uppercase;
               }
             }
 
@@ -972,14 +979,16 @@ img {
             .lead {
               margin: 1rem 0;
               padding: 1rem 0;
-              font-size: 1rem;
-              letter-spacing: 0.2rem;
+              font-size: 1.2rem;
+              letter-spacing: 0.1rem;
               color: $primary-color;
-              font-size: 13px;
+              // font-size: 13px;
               line-height: 2rem;
+              text-transform: none;
 
               span {
                 font-weight: 900;
+                text-transform: uppercase;
               }
             }
           }
@@ -1254,9 +1263,10 @@ img {
       .lead {
         margin: 1rem 0;
         padding: 1rem 0;
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
         line-height: 2rem;
+        text-transform: none;
       }
 
 
@@ -1347,8 +1357,9 @@ img {
           margin: 1rem 0;
           padding: 1rem 0;
           font-size: 1.5rem;
-          letter-spacing: 0.2rem;
+          letter-spacing: 0.1rem;
           line-height: 2rem;
+          text-transform: none;
         }
 
         .visual__projects {
@@ -1476,12 +1487,14 @@ img {
             margin: 1rem 0;
             padding: 1rem 3rem;
             font-size: 1rem;
-            letter-spacing: 0.2rem;
+            letter-spacing: 0.1rem;
             color: $primary-color;
             line-height: 2rem;
+            text-transform: none;
   
             span {
               font-weight: 900;
+              text-transform: uppercase;
             }
           }
   
@@ -1582,12 +1595,14 @@ img {
                 margin: 1rem 0;
                 padding: 1rem 0;
                 font-size: 1rem;
-                letter-spacing: 0.2rem;
+                letter-spacing: 0.1rem;
                 color: $primary-color;
                 line-height: 2rem;
+                text-transform: none;
   
                 span {
                   font-weight: 900;
+                  text-transform: uppercase;
                 }
               }
   
@@ -1612,13 +1627,15 @@ img {
                 margin: 1rem 0;
                 padding: 1rem 0;
                 font-size: 1rem;
-                letter-spacing: 0.2rem;
+                letter-spacing: 0.1rem;
                 color: $primary-color;
                 font-size: 13px;
                 line-height: 2rem;
+                text-transform: none;
   
                 span {
                   font-weight: 900;
+                  text-transform: uppercase;
                 }
               }
             }

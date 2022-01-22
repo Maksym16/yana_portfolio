@@ -384,9 +384,11 @@ img {
       padding: 1rem 0;
       font-size: 1rem;
       font-weight: 100;
-      line-height: 3rem; }
+      line-height: 3rem;
+      text-transform: none; }
       #about .about__container .lead span {
-        font-weight: 900; }
+        font-weight: 900;
+        text-transform: uppercase; }
     #about .about__container__box__main__row {
       display: grid;
       grid-template-columns: repeat(1, 1fr); }
@@ -446,8 +448,9 @@ img {
       margin: 1rem 0;
       padding: 1rem 0;
       font-size: 1.5rem;
-      letter-spacing: 0.2rem;
-      line-height: 2rem; }
+      letter-spacing: 0.1rem;
+      line-height: 2rem;
+      text-transform: none; }
     #visual .visual__container .heading {
       width: 100%;
       font-size: 2rem;
@@ -490,7 +493,7 @@ img {
       margin: 1rem 0;
       padding: 1rem 0;
       font-size: 1.5rem;
-      letter-spacing: 0.2rem;
+      letter-spacing: 0.1rem;
       line-height: 2rem; }
     #projects .projects__container .heading {
       width: 100%;
@@ -600,12 +603,14 @@ img {
       #case .case__container__box .lead {
         margin: 1rem 0;
         padding: 1rem 3rem;
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
         color: #333;
-        line-height: 2rem; }
+        line-height: 2rem;
+        text-transform: none; }
         #case .case__container__box .lead span {
-          font-weight: 900; }
+          font-weight: 900;
+          text-transform: uppercase; }
         #case .case__container__box .lead--italic {
           font-style: italic; }
         #case .case__container__box .lead--grey {
@@ -703,12 +708,14 @@ img {
           #case .case__container__box__inner-box .heading .lead {
             margin: 1rem 0;
             padding: 1rem 0;
-            font-size: 1rem;
-            letter-spacing: 0.2rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.1rem;
             color: #333;
-            line-height: 2rem; }
+            line-height: 2rem;
+            text-transform: none; }
             #case .case__container__box__inner-box .heading .lead span {
-              font-weight: 900; }
+              font-weight: 900;
+              text-transform: uppercase; }
           #case .case__container__box__inner-box .heading--on-time .cta {
             color: #033F73 !important;
             background-color: transparent;
@@ -756,13 +763,14 @@ img {
           #case .case__container__box__inner-box .left .lead, #case .case__container__box__inner-box .right .lead {
             margin: 1rem 0;
             padding: 1rem 0;
-            font-size: 1rem;
-            letter-spacing: 0.2rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.1rem;
             color: #333;
-            font-size: 13px;
-            line-height: 2rem; }
+            line-height: 2rem;
+            text-transform: none; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
-              font-weight: 900; }
+              font-weight: 900;
+              text-transform: uppercase; }
         #case .case__container__box__inner-box .project__item__img__max {
           height: 35rem;
           padding: 1rem 2rem;
@@ -933,9 +941,10 @@ img {
       #about .about__container .lead {
         margin: 1rem 0;
         padding: 1rem 0;
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
-        line-height: 2rem; }
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        text-transform: none; }
       #about .about__container__box__main__row {
         display: grid;
         grid-template-columns: repeat(2, 1fr); }
@@ -991,8 +1000,9 @@ img {
       margin: 1rem 0;
       padding: 1rem 0;
       font-size: 1.5rem;
-      letter-spacing: 0.2rem;
-      line-height: 2rem; }
+      letter-spacing: 0.1rem;
+      line-height: 2rem;
+      text-transform: none; }
     #visual .visual__container .visual__projects {
       display: grid;
       grid-template-columns: repeat(3, 1fr); }
@@ -1067,11 +1077,13 @@ img {
         margin: 1rem 0;
         padding: 1rem 3rem;
         font-size: 1rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
         color: #333;
-        line-height: 2rem; }
+        line-height: 2rem;
+        text-transform: none; }
         #case .case__container__box .lead span {
-          font-weight: 900; }
+          font-weight: 900;
+          text-transform: uppercase; }
       #case .case__container__box .center-text {
         display: flex;
         justify-content: center;
@@ -1138,11 +1150,13 @@ img {
             margin: 1rem 0;
             padding: 1rem 0;
             font-size: 1rem;
-            letter-spacing: 0.2rem;
+            letter-spacing: 0.1rem;
             color: #333;
-            line-height: 2rem; }
+            line-height: 2rem;
+            text-transform: none; }
             #case .case__container__box__inner-box .heading .lead span {
-              font-weight: 900; }
+              font-weight: 900;
+              text-transform: uppercase; }
           #case .case__container__box__inner-box .heading--on-time .cta {
             color: #033F73 !important;
             background-color: transparent;
@@ -1157,12 +1171,14 @@ img {
             margin: 1rem 0;
             padding: 1rem 0;
             font-size: 1rem;
-            letter-spacing: 0.2rem;
+            letter-spacing: 0.1rem;
             color: #333;
             font-size: 13px;
-            line-height: 2rem; }
+            line-height: 2rem;
+            text-transform: none; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
-              font-weight: 900; }
+              font-weight: 900;
+              text-transform: uppercase; }
         #case .case__container__box__inner-box .project__item__img__max {
           height: 50rem;
           padding: 1rem 2rem;
