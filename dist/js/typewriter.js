@@ -36,27 +36,5 @@ $(document).ready(function () {
 });
 
 
-// $(document).ready(function () {
-//   $('.submit').click( function(event) {
-
-//     let firstName = $('.firstName').val();
-//     let lastName = $('.lastName').val();
-//     let email = $('.email').val();
-//     let massage = $('.massage').val();
-//     let statusField = $('.status')
-//     statusField.empty()
-
-//     if (email.length > 5 && email.includes('@') && email.includes('.')) {
-//       statusField.append('<div>Thanks!</div>');
-//       lastName = '';
-//       firstName = '';
-//       email = '';
-//       statusField;
-//     } else {
-//       event.preventDefault();
-//       statusField.append('Oops! There was a problem.');
-//     }
-//   })
-// })
 
 

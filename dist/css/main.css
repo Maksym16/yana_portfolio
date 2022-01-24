@@ -92,13 +92,13 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    font-size: 4rem; }
+    font-size: 3rem; }
 
 ul {
   list-style-type: none; }
@@ -120,7 +120,7 @@ img {
   color: #333;
   background-color: transparent;
   border: 2px solid #333;
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin: 4rem 0;
@@ -294,8 +294,10 @@ img {
       #home .home h1:nth-child(3) {
         animation: text_reveal_name 0.5s ease forwards;
         animation-delay: 3s; }
+      #home .home h1:nth-child(4) {
+        animation-delay: 4s; }
       #home .home h1.lg-heading {
-        font-size: 4rem; }
+        font-size: 3rem; }
       #home .home h1 span {
         position: absolute;
         top: 0;
@@ -311,6 +313,8 @@ img {
         animation-delay: 1.5s; }
       #home .home h1:nth-child(3) span {
         animation-delay: 2.5s; }
+      #home .home h1:nth-child(4) span {
+        animation-delay: 3.5s; }
     #home .home h2 {
       position: relative;
       display: block;
@@ -921,8 +925,12 @@ img {
       margin: 0 5vw; }
       #home .home .container-right .img {
         background: url("../img/header-img.png") no-repeat cover cover/right; }
+    #home .home h1:nth-child(1) {
+      display: none; }
+      #home .home h1:nth-child(1) span {
+        display: none; }
     #home .home h1.lg-heading {
-      font-size: 7rem !important; }
+      font-size: 5rem !important; }
     #home .home .cta {
       text-align: center;
       width: fit-content; }

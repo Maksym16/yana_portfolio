@@ -34,13 +34,13 @@ h3 {
   font-weight: 200;
 
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -68,7 +68,7 @@ img {
   color: $primary-color;
   background-color: transparent;
   border: 2px solid $primary-color;
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin: 4rem 0;
@@ -276,7 +276,6 @@ img {
   overflow: hidden;
   .home {
     margin-top: 20vh;
-    // margin-left: 0vw;
 
     .container-right {
       display: none;
@@ -300,8 +299,12 @@ img {
         animation-delay: 3s;
       }
 
+      &:nth-child(4) {
+        animation-delay: 4s;
+      }
+
       &.lg-heading {
-        font-size: 4rem;
+        font-size: 3rem;
       }
 
       span {
@@ -324,6 +327,11 @@ img {
       &:nth-child(3) {
         span {
           animation-delay: 2.5s;
+        }
+      }
+      &:nth-child(4) {
+        span {
+          animation-delay: 3.5s;
         }
       }
     }
@@ -1234,8 +1242,14 @@ img {
       }
 
       h1 {
+        &:nth-child(1) {
+          display: none;
+          span {
+            display: none;
+          }
+        }
         &.lg-heading {
-          font-size: 7rem !important;
+          font-size: 5rem !important;
         }
       }
 
