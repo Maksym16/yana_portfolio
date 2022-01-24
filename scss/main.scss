@@ -179,7 +179,7 @@ img {
           left: 50%;
           transform: translate(-50%, -50%) scale(0);
           color: rgba(240, 248, 255, 0.021);
-          font-size: 13rem;
+          font-size: 10rem;
           letter-spacing: 50px;
           text-align: center;
           z-index: -1;
@@ -406,6 +406,7 @@ img {
   background-color: #f4f4f4;
   color: $primary-color;
   height: 100%;
+  margin-top: 2rem;
 
   .about__container {
     background-color: #f4f4f4;
@@ -498,7 +499,7 @@ img {
 }
 
 #visual {
-  margin-top: 10rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -562,7 +563,7 @@ img {
 }
 
 #projects {
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1404,6 +1405,7 @@ img {
 
   #visual {
     .visual {
+      margin-top: 10rem;
       &__container {
         background-color: #f4f4f4;
         max-width: 1300px;
@@ -1444,6 +1446,7 @@ img {
 
   #projects {
     .projects {
+      margin-top: 10rem;
       &__container {
         padding: 4rem;
         .projects__items {
@@ -1509,6 +1512,7 @@ img {
 
   #case {
     .case {
+      margin-top: 10rem;
       &__container {
         background-color: #f4f4f4;
         max-width: 1300px;
