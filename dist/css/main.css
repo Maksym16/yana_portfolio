@@ -277,9 +277,13 @@ img {
   height: 100vh;
   overflow: hidden; }
   #home .home {
-    margin-top: 20vh; }
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 7vh; }
     #home .home .container-right {
-      display: none; }
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2vh; }
     #home .home h1 {
       position: relative;
       display: block;
@@ -297,7 +301,7 @@ img {
       #home .home h1:nth-child(4) {
         animation-delay: 4s; }
       #home .home h1.lg-heading {
-        font-size: 3rem; }
+        font-size: 2rem; }
       #home .home h1 span {
         position: absolute;
         top: 0;
@@ -788,7 +792,7 @@ img {
             #case .case__container__box__inner-box--3 .left .box .lead, #case .case__container__box__inner-box--3 .mid .box .lead, #case .case__container__box__inner-box--3 .right .box .lead {
               padding: 0;
               margin: .3rem;
-              font-size: 12px;
+              font-size: 1.2rem;
               line-height: 2rem; }
             #case .case__container__box__inner-box--3 .left .project__item__img, #case .case__container__box__inner-box--3 .mid .project__item__img, #case .case__container__box__inner-box--3 .right .project__item__img {
               max-width: 30rem;
@@ -854,11 +858,32 @@ img {
               padding: 0; }
             #case .case__container__box__inner-box--cook-it .right .user-persona-container .lead {
               font-style: normal !important;
-              font-size: 1rem !important;
+              font-size: 1.2rem !important;
               line-height: 2rem; }
               #case .case__container__box__inner-box--cook-it .right .user-persona-container .lead span {
                 padding-bottom: 2px;
                 border-bottom: 2px solid #E5E5E5; }
+
+@media only screen and (min-width: 668px) {
+  #home .home {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 7vh; }
+    #home .home .container-right {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2vh; }
+      #home .home .container-right img {
+        height: 60%;
+        width: 60%; }
+    #home .home h1.lg-heading {
+      font-size: 2rem; }
+  #about .center-text .project__item__img {
+    height: 30rem;
+    transform: rotate(10deg);
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 2rem; } }
 
 @media only screen and (min-width: 1200px) {
   /* header */
@@ -923,8 +948,9 @@ img {
       flex-direction: column;
       justify-content: center;
       margin: 0 5vw; }
-      #home .home .container-right .img {
-        background: url("../img/header-img.png") no-repeat cover cover/right; }
+      #home .home .container-right img {
+        height: 70%;
+        width: 80%; }
     #home .home h1:nth-child(1) {
       display: none; }
       #home .home h1:nth-child(1) span {
@@ -1084,7 +1110,7 @@ img {
       #case .case__container__box .lead {
         margin: 1rem 0;
         padding: 1rem 3rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         letter-spacing: 0.1rem;
         color: #333;
         line-height: 2rem;
@@ -1157,7 +1183,7 @@ img {
           #case .case__container__box__inner-box .heading .lead {
             margin: 1rem 0;
             padding: 1rem 0;
-            font-size: 1rem;
+            font-size: 1.2rem;
             letter-spacing: 0.1rem;
             color: #333;
             line-height: 2rem;
@@ -1178,10 +1204,9 @@ img {
           #case .case__container__box__inner-box .left .lead, #case .case__container__box__inner-box .right .lead {
             margin: 1rem 0;
             padding: 1rem 0;
-            font-size: 1rem;
+            font-size: 1.2rem;
             letter-spacing: 0.1rem;
             color: #333;
-            font-size: 13px;
             line-height: 2rem;
             text-transform: none; }
             #case .case__container__box__inner-box .left .lead span, #case .case__container__box__inner-box .right .lead span {
@@ -1200,7 +1225,7 @@ img {
             #case .case__container__box__inner-box--3 .left .box .lead, #case .case__container__box__inner-box--3 .mid .box .lead, #case .case__container__box__inner-box--3 .right .box .lead {
               padding: 0;
               margin: .3rem;
-              font-size: 12px;
+              font-size: 1.2rem;
               line-height: 2rem; }
           #case .case__container__box__inner-box--3 .mid {
             padding: 2rem; }
