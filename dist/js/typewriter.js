@@ -27,13 +27,13 @@ menu_item.forEach((item) => {
 });
 
 /*========== LIGHTBOX IMAGE GALLERY ==========*/
-$(document).ready(function () {
-	lightbox.option({
-			'resizeDuration': 600,
-			'wrapAround': true,
-			'imageFadeDuration': 500
-	});
-});
+// document.ready(function () {
+// 	lightbox.option({
+// 			'resizeDuration': 600,
+// 			'wrapAround': true,
+// 			'imageFadeDuration': 500
+// 	});
+// });
 
 
 
