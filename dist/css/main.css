@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@100&display=swap");
 @keyframes hamburger_puls {
   0% {
     opacity: 1;
@@ -609,6 +610,8 @@ img {
           color: #AC2020; }
         #case .case__container__box .title--cook-it {
           color: #A1BA79; }
+        #case .case__container__box .title--evelina {
+          color: #CEEAF0; }
       #case .case__container__box .lead {
         margin: 1rem 0;
         padding: 1rem 3rem;
@@ -767,6 +770,22 @@ img {
             margin-left: 4rem; }
             #case .case__container__box__inner-box .heading--cook-it .right .project__item__img--portland {
               width: 40rem; }
+          #case .case__container__box__inner-box .heading--evelina {
+            display: flex;
+            align-items: center;
+            flex-direction: column; }
+            #case .case__container__box__inner-box .heading--evelina .heading__text {
+              color: #CEEAF0 !important; }
+            #case .case__container__box__inner-box .heading--evelina .cta {
+              color: #CEEAF0 !important;
+              background-color: transparent;
+              border: 2px solid #CEEAF0 !important;
+              max-width: fit-content;
+              font-size: 1rem;
+              margin: 1rem 0; }
+              #case .case__container__box__inner-box .heading--evelina .cta:hover {
+                color: #333 !important;
+                background-color: #CEEAF0 !important; }
         #case .case__container__box__inner-box .left, #case .case__container__box__inner-box .right {
           padding: 2rem; }
           #case .case__container__box__inner-box .left .lead, #case .case__container__box__inner-box .right .lead {
@@ -864,6 +883,45 @@ img {
               #case .case__container__box__inner-box--cook-it .right .user-persona-container .lead span {
                 padding-bottom: 2px;
                 border-bottom: 2px solid #E5E5E5; }
+        #case .case__container__box__inner-box--evelina {
+          font-family: 'Libre Baskerville', serif;
+          margin-bottom: 2rem; }
+          #case .case__container__box__inner-box--evelina .center-text .cta {
+            color: #CEEAF0 !important;
+            background-color: transparent;
+            border: 2px solid #CEEAF0 !important;
+            max-width: fit-content;
+            font-size: 1rem;
+            margin: 1rem 0;
+            font-family: 'Poppins', sans-serif !important; }
+            #case .case__container__box__inner-box--evelina .center-text .cta:hover {
+              color: #333 !important;
+              background-color: #CEEAF0 !important; }
+          #case .case__container__box__inner-box--evelina .center-text .lead {
+            font-family: 'Poppins', sans-serif !important; }
+          #case .case__container__box__inner-box--evelina .center-text .project__item__img--logo {
+            max-width: 20rem;
+            margin-top: 2rem; }
+          #case .case__container__box__inner-box--evelina .center-text img {
+            margin-top: 2rem; }
+          #case .case__container__box__inner-box--evelina .center-text .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 2rem; }
+          #case .case__container__box__inner-box--evelina .center-text h3 {
+            color: #333 !important;
+            font-weight: bold;
+            text-align: start;
+            width: 68%;
+            margin-top: 2rem;
+            font-family: 'Poppins', sans-serif !important; }
+          #case .case__container__box__inner-box--evelina .center-text .ptag {
+            color: #333 !important;
+            text-align: start;
+            width: 68%;
+            font-family: 'Poppins', sans-serif !important; }
 
 @media only screen and (min-width: 668px) {
   #home .home {
@@ -922,7 +980,7 @@ img {
     #header .nav-list ul li {
       display: inline-block; }
       #header .nav-list ul li a {
-        font-size: 1.8rem;
+        font-size: 1rem;
         color: #333; }
         #header .nav-list ul li a:after {
           display: none; }

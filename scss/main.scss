@@ -746,6 +746,10 @@ img {
           &--cook-it {
             color: $cook-it;
           }
+
+          &--evelina {
+            color: $evelina;
+          }
         }
 
         .lead {
@@ -985,6 +989,28 @@ img {
                 }
               }
             }
+
+            &--evelina {
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              .heading__text {
+                color: $evelina !important;
+              }
+              .cta {
+                color: $evelina !important;
+                background-color: transparent;
+                border: 2px solid $evelina !important;
+                max-width: fit-content;
+                font-size: 1rem;
+                margin: 1rem 0;
+  
+                &:hover {
+                  color: $primary-color !important;
+                  background-color: $evelina !important;
+                }
+              }
+            }
           }
 
           .left, .right {
@@ -1142,6 +1168,64 @@ img {
               }
             }
           }
+
+          &--evelina {
+            font-family: 'Libre Baskerville', serif;
+            margin-bottom: 2rem;
+            .center-text {
+              .cta {
+                color: $evelina !important;
+                background-color: transparent;
+                border: 2px solid $evelina !important;
+                max-width: fit-content;
+                font-size: 1rem;
+                margin: 1rem 0;
+                font-family: 'Poppins', sans-serif !important;
+  
+                &:hover {
+                  color: $primary-color !important;
+                  background-color: $evelina !important;
+                }
+              }
+
+              .lead {
+                font-family: 'Poppins', sans-serif !important;
+              }
+
+              .project__item__img--logo {
+                max-width: 20rem;
+                margin-top: 2rem;
+              }
+
+              img {
+                margin-top: 2rem;
+              }
+
+              .heading {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 2rem;
+              }
+
+              h3 {
+                color: $primary-color !important;
+                font-weight: bold;
+                text-align: start;
+                width: 68%;
+                margin-top: 2rem;
+                font-family: 'Poppins', sans-serif !important;
+              }
+
+              .ptag {
+                color: $primary-color !important;
+                text-align: start;
+                width: 68%;
+                font-family: 'Poppins', sans-serif !important;
+              }
+            }
+          }
         }
       }
     }
@@ -1241,7 +1325,7 @@ img {
         display: inline-block;
 
         a {
-          font-size: 1.8rem;
+          font-size: 1rem;
           color: $primary-color;
           // font-weight: bold !important;
 
