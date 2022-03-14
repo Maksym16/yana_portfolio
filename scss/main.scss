@@ -284,59 +284,33 @@ img {
       justify-content: center;
       margin-bottom: 2vh;
     }
-    h1 {
+    h3 {
       position: relative;
       display: block;
       width: fit-content;
-      color: transparent;
-      animation: text_reveal 0.5s ease forwards;
-      animation-delay: 1s;
-
-      &:nth-child(1) {
-        animation-delay: 1s;
-      }
-      &:nth-child(2) {
-        animation-delay: 2s;
-      }
-      &:nth-child(3) {
-        animation: text_reveal_name 0.5s ease forwards;
-        animation-delay: 3s;
-      }
-
-      &:nth-child(4) {
-        animation-delay: 4s;
-      }
+      color: $primary-color;
+      font-weight: 400;
+      text-transform: none;
 
       &.lg-heading {
-        font-size: 2rem;
-      }
+        font-size: 1.3rem;
 
-      span {
-        @include spanTran;
-        animation-delay: 0.5s;
-      }
-
-      &:nth-child(1) {
-        span {
-          animation-delay: 0.5s;
+        img {
+          width: 30px;
+          margin-bottom: -3px;
+          margin-left: 1rem;
         }
       }
+    }
+    
+    p {
+      color: $primary-color;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      text-transform: none;
 
-      &:nth-child(2) {
-        span {
-          animation-delay: 1.5s;
-        }
-      }
-
-      &:nth-child(3) {
-        span {
-          animation-delay: 2.5s;
-        }
-      }
-      &:nth-child(4) {
-        span {
-          animation-delay: 3.5s;
-        }
+      &:first-of-type {
+        margin-top: 2rem;
       }
     }
 
@@ -1353,24 +1327,35 @@ img {
       }
 
       .container-left {
-        width: 50%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 5vw;
+        margin-left: 5vw;
+        padding-left: 3vw;
+
+        h3 {
+          &.lg-heading {
+            font-size: 2.5rem;
+          }
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
       }
 
       .container-right {
-        width: 50%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 5vw;
-       
+        margin-left: -13vw;
+        margin-right: 5vw;
 
         img {
-          height: 70%;
-          width: 80%;
+          min-height: 70%;
+          min-width: 100%;
         }
       }
 
